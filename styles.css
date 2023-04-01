@@ -1,20 +1,22 @@
 .navbar {
     overflow: hidden;
     background-color: #333;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
+    margin-right: 4%;
   }
 
   /* Style for Navbar Links */
   .navbar a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
+
   }
 
   /* Change color on hover */
@@ -27,4 +29,9 @@
   .active {
     background-color: #4CAF50;
     color: white;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
